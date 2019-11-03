@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bohemian Visions</title>
+	<link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/yhz6cvx.css"> 
+</head>
+
+<!-- Update id! -->
+<body id="contact">
+    <nav>
+        <div class="mobile-nav-bar">
+            <div class="top-nav-bar">
+                <div class="wrapper">
+                    <a href="index.html" class="logo" alt="Bohemian Visions Logo"></a>
+                    <a href="javascript:void(0);" id="menu" alt="menu" onclick="menuCollapse()"></a>
+                </div>
+            </div>
+            <div id="bottom-nav-bar">
+                <ul class="nav-bar-items">
+                    <li><a href="gallery.html" class="gallery" alt="Gallery">Gallery</a></li>
+                    <li><a href="blog.html" class="blog" alt="Blog">Blog</a></li>
+                    <li><a href="albums.html" class="albums" alt="Contact">Albums</a></li>
+                    <li><a href="contact.html" class="contact" alt="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="desktop-nav-bar">
+            <div class="wrapper">
+                <ul class="nav-bar-items">
+                    <li><a href="gallery.html" class="gallery" alt="Gallery">Gallery</a></li>
+                    <li><a href="blog.html" class="blog" alt="Blog">Blog</a></li>
+                    <li class="logo-item"><a href="index.html" class="logo" alt="Bohemian Visions Logo"></a></li>
+                    <li><a href="albums.html" class="albums" alt="Contact">Albums</a></li>
+                    <li><a href="contact.html" class="contact" alt="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+	<main>
+		<div class="hero">
+			<div class="hero-title">
+				<div class="hero-title-wrapper">
+					<h1>Contact</h1>
+					<h5>Book a session today</h5>
+				</div>
+			</div>
+		</div>
+		<div class="in-touch">
+			<div class="wrapper">
+				<div class="image-container">
+					<img src="https://via.placeholder.com/680x450" alt="Our Purpose">
+					<div class="overlay">
+					</div>
+				</div>
+				<div class="in-touch-text">
+                    <h2>Get In Touch</h2>
+                    <p>Schedule a consultation today! Have additional questions? Fill out the form below and we will be in touch.</p>
+                    <a href="#" class="book">Book Now</a>
+				</div>
+			</div>
+        </div>
+        
+		<div class="contact-us">
+			<div class="wrapper">
+                    <form action="send_mail.php" method="POST" name="form" class="contact-form">
+                            <fieldset>
+                                <legend>
+                                    <h3>Contact Form</h3>
+                                </legend>
+                                <div class="contact-form-container">
+                                    <div class="name-email-wrapper">
+                                        <label for="first name" class="visuallyhidden">First Name:</label>
+                                        <input type="text" name="firstName" placeholder="First Name" class="name">
+                                        <label for="Email" class="visuallyhidden">Email:</label>
+                                        <input type="text" name="email" placeholder="Email" class="email">
+                                    </div>
+                                    <label for="message" class="visuallyhidden">Message</label>
+                                    <textarea type="text" name="comments" placeholder="Message..."></textarea>
+                                    <button type="submit">Submit</button>
+                                </div>
+                            </fieldset>
+                        </form>
+			</div>
+        </div>
+        
+		<div id="sign-up" class="sign-up">
+			<div class="wrapper">
+				<form action="send_mail.php" method="POST" name="form" class="form">
+					<fieldset>
+						<legend>
+							<h3>Sign Up for Updates on <span>the Latest Content</span></h3>
+						</legend>
+						<div class="sign-up-container">
+							<label for="first name" class="visuallyhidden">First Name:</label>
+							<input type="text" name="firstName" placeholder="First Name" class="name">
+							<label for="Email" class="visuallyhidden">Email:</label>
+							<input type="text" name="email" placeholder="Email" class="email">
+							<button type="submit">Sign Up</button>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+        <div class="footer-bar">
+            <div class="wrapper">
+                <a href="#" class="privacy">Privacy</a>
+                <ul class="footer-bar-items">
+                    <li><a href="gallery.html" class="gallery" alt="Gallery">Gallery</a></li>
+                    <li><a href="blog.html" class="blog" alt="Blog">Blog</a></li>
+                    <li><a href="albums.html" class="albums" alt="Contact">Albums</a></li>
+                    <li><a href="contact.html" class="contact" alt="Contact">Contact</a></li>
+                </ul>
+                <div class="footer-bar-icons">
+                        <a href="#" class="search"><img src="img/search_icon.png" class="search" alt="Search"></a>
+                        <a href="#" class="ig"><img src="img/ig_icon.png" alt="Instagram"></a>
+                        <a href="#" class="twitter"><img src="img/twitter_icon.png" alt="Twitter"></a>
+                        <a href="#" class="fb"><img src="img/fb_icon.png" alt="Facebook"></a>
+                        <a href="#" class="cart"><img src="img/cart_icon.png" alt="Shopping Cart"></a>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+	<script type="text/javascript" src="js/javascript.js"></script>
+
+</body>
+</html>

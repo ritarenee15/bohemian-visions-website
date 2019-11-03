@@ -1,0 +1,57 @@
+@import "vendor/flex",
+		"vendor/royall",
+		"vendor/normalize",
+		"vendor/html5-boilerplate-base";
+
+@import 'Utilities/variables',
+		'Utilities/mixins',
+		'Utilities/functions',
+		'Utilities/type',
+        'Utilities/layout',
+        'Utilities/image-maps',
+		'Utilities/buttons',
+		'Utilities/forms';
+
+
+@include stickyFooter('main');
+
+main {
+	background-color: $c-white;
+	.hero {
+		@include flexbox;
+		@include align-items(center);
+		@include justify-content(center);
+		height: 50vh;
+		background: $c-lightgrey url("https://via.placeholder.com/1440x800") no-repeat top center / cover;
+		&-title {
+			background-color: $c-white;
+			@include center(90%, $mq-small);
+			&-wrapper {
+				margin: 3%;
+				padding: 1em 10%;
+				border: thin solid $c-black;
+				h1 {
+					border-bottom: thin solid $c-black;
+					padding-bottom: .25em;
+					margin-bottom: .25em;
+				}
+				h5 {
+					margin-bottom: .5em;
+				}
+			}
+		}
+		@media (min-width: $mq-mediumSmall) {
+			height: calc(100vh - 10em);
+		}
+	}
+	.sign-up {
+		padding: 10% 0;
+		.wrapper {
+			@include center(90%, $mq-xLarge);
+		}
+	}
+}
+
+
+
+

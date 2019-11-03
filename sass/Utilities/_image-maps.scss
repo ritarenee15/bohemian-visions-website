@@ -1,0 +1,21 @@
+// map of images looped in mansory gallery
+$mansoryImages: (
+  'mansory-gallery-image': "https://via.placeholder.com/150x300"
+  );
+
+// Loop using Lists from $images variable
+@each $div, $mansoryImage in $mansoryImages {
+    .#{$div} {
+        background: $c-lightgrey url($mansoryImage) no-repeat top center / cover;
+        width: 150px;
+        color: white;
+        margin: 0 1rem 1rem 0;
+        border: thin solid $c-darkgrey;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-family: system-ui;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,157 @@
+@import "vendor/flex",
+		"vendor/royall",
+		"vendor/normalize",
+		"vendor/html5-boilerplate-base";
+
+@import 'Utilities/variables',
+		'Utilities/mixins',
+		'Utilities/functions',
+		'Utilities/type',
+        'Utilities/layout',
+        'Utilities/image-maps',
+		'Utilities/buttons',
+		'Utilities/forms';
+
+
+@include stickyFooter('main');
+
+main {
+	background-color: $c-white;
+	.hero {
+		@include flexbox;
+		@include align-items(center);
+		@include justify-content(center);
+		height: 50vh;
+		background: $c-lightgrey url("../img/hp_hero.png") no-repeat top center / cover;
+		&-title {
+			background-color: $c-white;
+			@include center(90%, $mq-small);
+			&-wrapper {
+				margin: 3%;
+				padding: 1em 10%;
+				border: thin solid $c-black;
+				h1 {
+					border-bottom: thin solid $c-black;
+					padding-bottom: .25em;
+					margin-bottom: .25em;
+				}
+				h5 {
+					margin-bottom: .5em;
+				}
+			}
+		}
+		@media (min-width: $mq-mediumSmall) {
+			height: calc(100vh - 10em);
+		}
+	}
+	.purpose {
+		background-color: $c-lightgrey;
+		.wrapper {
+			@include center(90%, $mq-mediumLarge);
+			padding: 5% 0;
+			.image-container {
+				position: relative;
+				img {
+					width: 100%;
+				}
+				.overlay {
+					position: absolute;
+					@include offsetBorder(4%);
+				}
+			}
+			.purpose-text {
+				margin: 10% 5% 0 30%;
+				text-align: left;
+				h2 {
+					position: relative;
+					z-index: 0;
+					&::before {
+						content: '';
+						display: inline-block;
+						position: absolute;
+						width: 14em;
+						height: 2em;
+						top: -.5em;
+						left: -5.5em;
+						background: $c-white;
+						z-index: -1;
+					}
+				}
+				p {
+					color: $c-white;
+					margin-top: 1.5em;
+				}
+			}
+			@media (min-width: $mq-small) {
+				@include flexbox;
+				@include align-items(center);
+				.purpose-text {
+					margin: 0 0 0 3em;
+					text-align: left;
+					width: 40%;
+				}
+			}
+		}
+	}
+	.about {
+		border-bottom: thin solid $c-lightgrey;
+		position: relative;
+		opacity: .9999;
+		&::after {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			@include diagonalLine;
+			z-index: -1;
+		}
+		.wrapper {
+			padding: 10% 0;
+			@include center(90%, $mq-small);
+			.about-title {
+				margin-bottom: 2em;
+				&-top {
+					margin-left: -5em;
+				}
+				&-bottom {
+					display: block;
+					font-weight: bold;
+					color: $c-white;
+					background: $c-grey;
+					@include center(90%, 8em);
+				}
+			}
+			.about-buttons {
+				margin-top: 2em;
+				a {
+					@extend %button;
+					&:first-child {
+						margin-bottom: 1em;
+					}
+				}
+				@include flexbox;
+				@include flex-direction(column);
+				@media (min-width: $mq-small) {
+					@include flex-direction(row);
+					@include justify-content(space-between);
+					@include center(100%, 30em);
+					a {
+						width: 15em;
+						&:first-child {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	.sign-up {
+		padding: 10% 0;
+		.wrapper {
+			@include center(90%, $mq-xLarge);
+		}
+	}
+}
+
+
+
+
