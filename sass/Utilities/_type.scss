@@ -41,8 +41,9 @@ h1 {
 
 h2 {
   @include fluidTypeSize(2, 1.25);
-  font-family: $f-headlineFont;
-  text-transform: uppercase;
+  // font-family: $f-headlineFont;
+  // text-transform: uppercase;
+  font-family: $f-bodyFont;
 }
 
 h3 {
@@ -53,8 +54,9 @@ h3 {
 
 h4 {
   @include fluidTypeSize(1.375, 1.1);
-  font-family: $f-headlineFont;
-  text-transform: uppercase;
+  // font-family: $f-headlineFont;
+  // text-transform: uppercase;
+  font-family: $f-bodyFont;
 }
 
 h5 {

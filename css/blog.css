@@ -683,8 +683,7 @@ h1 {
 
 h2 {
   font-size: 1.25rem;
-  font-family: "brandon-grotesque", Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: "kazimir", Garamond, serif;
 }
 
 @media (min-width: 20rem) and (max-width: 75rem) {
@@ -719,8 +718,7 @@ h3 {
 
 h4 {
   font-size: 1.1rem;
-  font-family: "brandon-grotesque", Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: "kazimir", Garamond, serif;
 }
 
 @media (min-width: 20rem) and (max-width: 75rem) {
