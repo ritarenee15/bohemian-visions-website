@@ -2729,6 +2729,12 @@ footer {
             padding: 10% 0;
             .wrapper {
                 @include center(90%, $mq-xLarge);
+                .sign-up-container button {
+                  @media (min-width: $mq-small) {
+                    width: 15em;
+                    margin: auto;
+                  }
+                }
             }
         }
     }
@@ -2962,8 +2968,10 @@ footer {
             .wrapper {
                 @include center(90%, $mq-xLarge);
                 .sign-up-container button {
-                    max-width: 15em;
+                  @media (min-width: $mq-small) {
+                    width: 15em;
                     margin: auto;
+                  }
                 }
             }
         }

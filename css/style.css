@@ -2072,6 +2072,13 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   margin-right: auto;
 }
 
+@media (min-width: 37.5em) {
+  #contact main .sign-up .wrapper .sign-up-container button {
+    width: 15em;
+    margin: auto;
+  }
+}
+
 #gallery body {
   display: -webkit-box;
   display: -moz-flex;
@@ -2168,183 +2175,183 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(1) {
-  height: 123px;
-  line-height: 123px;
+  height: 131px;
+  line-height: 131px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(2) {
+  height: 105px;
+  line-height: 105px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(3) {
+  height: 286px;
+  line-height: 286px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(4) {
+  height: 370px;
+  line-height: 370px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(5) {
+  height: 349px;
+  line-height: 349px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(6) {
+  height: 285px;
+  line-height: 285px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(7) {
+  height: 369px;
+  line-height: 369px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(8) {
+  height: 249px;
+  line-height: 249px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(9) {
+  height: 174px;
+  line-height: 174px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(10) {
+  height: 167px;
+  line-height: 167px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(11) {
+  height: 139px;
+  line-height: 139px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(12) {
+  height: 172px;
+  line-height: 172px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(13) {
+  height: 104px;
+  line-height: 104px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(14) {
+  height: 433px;
+  line-height: 433px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(15) {
+  height: 222px;
+  line-height: 222px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(16) {
+  height: 442px;
+  line-height: 442px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(17) {
+  height: 222px;
+  line-height: 222px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(18) {
+  height: 348px;
+  line-height: 348px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(19) {
+  height: 282px;
+  line-height: 282px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(20) {
+  height: 441px;
+  line-height: 441px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(21) {
+  height: 205px;
+  line-height: 205px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(22) {
+  height: 294px;
+  line-height: 294px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(23) {
+  height: 206px;
+  line-height: 206px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(24) {
+  height: 223px;
+  line-height: 223px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(25) {
+  height: 241px;
+  line-height: 241px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(26) {
+  height: 335px;
+  line-height: 335px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(27) {
+  height: 369px;
+  line-height: 369px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(28) {
+  height: 217px;
+  line-height: 217px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(29) {
+  height: 181px;
+  line-height: 181px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(30) {
+  height: 292px;
+  line-height: 292px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(31) {
+  height: 407px;
+  line-height: 407px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(32) {
   height: 363px;
   line-height: 363px;
 }
 
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(3) {
-  height: 414px;
-  line-height: 414px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(4) {
-  height: 437px;
-  line-height: 437px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(5) {
-  height: 421px;
-  line-height: 421px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(6) {
-  height: 331px;
-  line-height: 331px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(7) {
-  height: 237px;
-  line-height: 237px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(8) {
-  height: 446px;
-  line-height: 446px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(9) {
-  height: 268px;
-  line-height: 268px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(10) {
-  height: 307px;
-  line-height: 307px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(11) {
-  height: 225px;
-  line-height: 225px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(12) {
-  height: 208px;
-  line-height: 208px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(13) {
-  height: 194px;
-  line-height: 194px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(14) {
-  height: 321px;
-  line-height: 321px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(15) {
-  height: 446px;
-  line-height: 446px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(16) {
-  height: 212px;
-  line-height: 212px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(17) {
-  height: 168px;
-  line-height: 168px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(18) {
-  height: 457px;
-  line-height: 457px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(19) {
-  height: 191px;
-  line-height: 191px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(20) {
-  height: 173px;
-  line-height: 173px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(21) {
-  height: 476px;
-  line-height: 476px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(22) {
-  height: 469px;
-  line-height: 469px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(23) {
-  height: 209px;
-  line-height: 209px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(24) {
-  height: 229px;
-  line-height: 229px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(25) {
-  height: 224px;
-  line-height: 224px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(26) {
-  height: 169px;
-  line-height: 169px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(27) {
-  height: 427px;
-  line-height: 427px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(28) {
-  height: 470px;
-  line-height: 470px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(29) {
-  height: 454px;
-  line-height: 454px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(30) {
-  height: 409px;
-  line-height: 409px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(31) {
-  height: 250px;
-  line-height: 250px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(32) {
-  height: 467px;
-  line-height: 467px;
-}
-
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(33) {
-  height: 450px;
-  line-height: 450px;
+  height: 124px;
+  line-height: 124px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(34) {
-  height: 151px;
-  line-height: 151px;
+  height: 244px;
+  line-height: 244px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(35) {
-  height: 197px;
-  line-height: 197px;
+  height: 247px;
+  line-height: 247px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(36) {
-  height: 285px;
-  line-height: 285px;
+  height: 108px;
+  line-height: 108px;
 }
 
 #gallery main .book {
@@ -2618,8 +2625,10 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   margin-right: auto;
 }
 
-#homepage main .sign-up .wrapper .sign-up-container button {
-  max-width: 15em;
-  margin: auto;
+@media (min-width: 37.5em) {
+  #homepage main .sign-up .wrapper .sign-up-container button {
+    width: 15em;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
