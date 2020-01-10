@@ -67,24 +67,45 @@
 
 		<div class="contact-us">
 			<div class="wrapper">
-                    <form action="send_mail.php" method="POST" name="form" class="contact-form">
-                            <fieldset>
-                                <legend>
-                                    <h3>Contact Form</h3>
-                                </legend>
-                                <div class="contact-form-container">
-                                    <div class="name-email-wrapper">
-                                        <label for="first name" class="visuallyhidden">First Name:</label>
-                                        <input type="text" name="firstName" placeholder="First Name" class="name">
-                                        <label for="Email" class="visuallyhidden">Email:</label>
-                                        <input type="text" name="email" placeholder="Email" class="email">
-                                    </div>
-                                    <label for="message" class="visuallyhidden">Message</label>
-                                    <textarea type="text" name="comments" placeholder="Message..."></textarea>
-                                    <button type="submit">Submit</button>
-                                </div>
-                            </fieldset>
-                        </form>
+                <form action="send_mail.php" method="POST" name="form" class="contact-form">
+                    <fieldset>
+                        <legend>
+                            <h3>Contact Form</h3>
+                        </legend>
+                        <div class="contact-form-container">
+                            <div class="name-email-wrapper">
+                                <label for="first name" class="visuallyhidden">First Name</label>
+                                <input type="text" name="firstName" placeholder="First Name" class="name" required>
+                                <label for="Email" class="visuallyhidden">Email</label>
+                                <input type="text" name="email" placeholder="Email" class="email" required>
+                            </div>
+                            <label for="message" class="visuallyhidden">Message</label>
+                            <textarea type="text" name="comments" placeholder="Message..." required></textarea>
+                            <label for="phone number" class="visuallyhidden">Phone Number</label>
+                            <input type="text" name="phoneNumber" placeholder="Phone Number (Optional)" class="phone-number">
+                            <div class="how select-container">
+                                <select name="how" required>
+                                    <option value="0">How did you hear about Bohemian Visions?</option>
+                                    <option value="1">Yelp</option>
+                                    <option value="2">Google</option>
+                                    <option value="3">Instagram</option>
+                                    <option value="4">Facebook</option>
+                                    <option value="5">Word of Mouth</option>
+                                </select>
+                            </div>
+                            <div class="what select-container" required>
+                                <select name="what">
+                                    <option value="0">What type of Photography are you looking for?</option>
+                                    <option value="1">Boudoir</option>
+                                    <option value="2">Portrait</option>
+                                </select>
+                            </div>
+                            <label for="experience" class="visuallyhidden">Experience</label>
+                            <textarea type="text" name="experience" placeholder="What type of experience are you looking for? (Optional)"></textarea>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
 			</div>
         </div>
 

@@ -945,6 +945,15 @@ a.privacy:hover, a.privacy:focus {
   font-size: 1em;
 }
 
+.contact-form fieldset .contact-form-container .select-container select {
+  width: 100%;
+  background-color: #fff;
+  font-family: "brandon-grotesque", Arial, sans-serif;
+  font-size: .8em;
+  margin-bottom: 1em;
+  height: 3em;
+}
+
 @media (min-width: 37.5em) {
   .contact-form fieldset .contact-form-container {
     display: -webkit-box;
@@ -972,6 +981,13 @@ a.privacy:hover, a.privacy:focus {
   }
 }
 
+@media (min-width: 37.5em) {
+  .contact-form fieldset .contact-form-container button {
+    width: 15em;
+    margin: auto;
+  }
+}
+
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -987,7 +1003,7 @@ input[type="text"],
 textarea[type="text"] {
   font-family: "brandon-grotesque", Arial, sans-serif;
   color: #000000;
-  font-size: .75em;
+  font-size: .8em;
   width: 100%;
   display: inline-block;
   padding: 1em;
@@ -1004,35 +1020,36 @@ input[type="text"]::-webkit-input-placeholder,
 textarea[type="text"]::-webkit-input-placeholder {
   font-family: "brandon-grotesque", Arial, sans-serif;
   color: #7F7F7F;
-  font-size: .75em;
 }
 
 input[type="text"]:-ms-input-placeholder,
 textarea[type="text"]:-ms-input-placeholder {
   font-family: "brandon-grotesque", Arial, sans-serif;
   color: #7F7F7F;
-  font-size: .75em;
 }
 
 input[type="text"]::-ms-input-placeholder,
 textarea[type="text"]::-ms-input-placeholder {
   font-family: "brandon-grotesque", Arial, sans-serif;
   color: #7F7F7F;
-  font-size: .75em;
 }
 
 input[type="text"]::placeholder,
 textarea[type="text"]::placeholder {
   font-family: "brandon-grotesque", Arial, sans-serif;
   color: #7F7F7F;
-  font-size: .75em;
 }
 
 button[type="submit"]:hover,
 input[type="text"]:hover,
-textarea[type="text"]:hover {
+textarea[type="text"]:hover,
+select:hover {
   -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+select:hover {
+  border: thin solid white;
 }
 
 input[type="text"]:hover,
@@ -1042,7 +1059,8 @@ textarea[type="text"]:hover {
 
 input[type="text"]:focus,
 button[type="submit"]:focus,
-textarea[type="text"]:focus {
+textarea[type="text"]:focus,
+select:focus {
   outline: none;
 }
 
@@ -2041,6 +2059,8 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #contact main .contact-us {
+  max-width: 100%;
+  overflow-x: hidden;
   padding: 10% 0;
   border-bottom: thin solid #B2B2B2;
   position: relative;
@@ -2175,183 +2195,183 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(1) {
-  height: 131px;
-  line-height: 131px;
+  height: 132px;
+  line-height: 132px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(2) {
-  height: 105px;
-  line-height: 105px;
+  height: 316px;
+  line-height: 316px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(3) {
-  height: 286px;
-  line-height: 286px;
+  height: 332px;
+  line-height: 332px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(4) {
-  height: 370px;
-  line-height: 370px;
+  height: 449px;
+  line-height: 449px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(5) {
-  height: 349px;
-  line-height: 349px;
+  height: 345px;
+  line-height: 345px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(6) {
-  height: 285px;
-  line-height: 285px;
+  height: 365px;
+  line-height: 365px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(7) {
-  height: 369px;
-  line-height: 369px;
+  height: 406px;
+  line-height: 406px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(8) {
-  height: 249px;
-  line-height: 249px;
+  height: 359px;
+  line-height: 359px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(9) {
-  height: 174px;
-  line-height: 174px;
+  height: 201px;
+  line-height: 201px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(10) {
-  height: 167px;
-  line-height: 167px;
+  height: 481px;
+  line-height: 481px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(11) {
-  height: 139px;
-  line-height: 139px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(12) {
-  height: 172px;
-  line-height: 172px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(13) {
-  height: 104px;
-  line-height: 104px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(14) {
-  height: 433px;
-  line-height: 433px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(15) {
-  height: 222px;
-  line-height: 222px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(16) {
-  height: 442px;
-  line-height: 442px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(17) {
-  height: 222px;
-  line-height: 222px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(18) {
-  height: 348px;
-  line-height: 348px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(19) {
-  height: 282px;
-  line-height: 282px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(20) {
-  height: 441px;
-  line-height: 441px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(21) {
-  height: 205px;
-  line-height: 205px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(22) {
-  height: 294px;
-  line-height: 294px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(23) {
-  height: 206px;
-  line-height: 206px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(24) {
-  height: 223px;
-  line-height: 223px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(25) {
-  height: 241px;
-  line-height: 241px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(26) {
-  height: 335px;
-  line-height: 335px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(27) {
-  height: 369px;
-  line-height: 369px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(28) {
   height: 217px;
   line-height: 217px;
 }
 
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(12) {
+  height: 359px;
+  line-height: 359px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(13) {
+  height: 397px;
+  line-height: 397px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(14) {
+  height: 111px;
+  line-height: 111px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(15) {
+  height: 300px;
+  line-height: 300px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(16) {
+  height: 169px;
+  line-height: 169px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(17) {
+  height: 326px;
+  line-height: 326px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(18) {
+  height: 145px;
+  line-height: 145px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(19) {
+  height: 113px;
+  line-height: 113px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(20) {
+  height: 203px;
+  line-height: 203px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(21) {
+  height: 397px;
+  line-height: 397px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(22) {
+  height: 196px;
+  line-height: 196px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(23) {
+  height: 387px;
+  line-height: 387px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(24) {
+  height: 168px;
+  line-height: 168px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(25) {
+  height: 218px;
+  line-height: 218px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(26) {
+  height: 395px;
+  line-height: 395px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(27) {
+  height: 101px;
+  line-height: 101px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(28) {
+  height: 424px;
+  line-height: 424px;
+}
+
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(29) {
-  height: 181px;
-  line-height: 181px;
+  height: 198px;
+  line-height: 198px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(30) {
-  height: 292px;
-  line-height: 292px;
+  height: 294px;
+  line-height: 294px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(31) {
+  height: 387px;
+  line-height: 387px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(32) {
+  height: 331px;
+  line-height: 331px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(33) {
+  height: 257px;
+  line-height: 257px;
+}
+
+#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(34) {
   height: 407px;
   line-height: 407px;
 }
 
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(32) {
-  height: 363px;
-  line-height: 363px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(33) {
-  height: 124px;
-  line-height: 124px;
-}
-
-#gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(34) {
-  height: 244px;
-  line-height: 244px;
-}
-
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(35) {
-  height: 247px;
-  line-height: 247px;
+  height: 226px;
+  line-height: 226px;
 }
 
 #gallery main .recent-photos .wrapper .mansory-gallery div:nth-child(36) {
-  height: 108px;
-  line-height: 108px;
+  height: 323px;
+  line-height: 323px;
 }
 
 #gallery main .book {
@@ -2527,6 +2547,8 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
 }
 
 #homepage main .about {
+  max-width: 100%;
+  overflow-x: hidden;
   border-bottom: thin solid #B2B2B2;
   position: relative;
   opacity: .9999;
