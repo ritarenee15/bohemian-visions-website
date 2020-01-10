@@ -1556,14 +1556,20 @@
 }
 
 @mixin diagonalLine {
-	left: 25%;
+	left: -30%;
 	bottom: 169px;
 	height: 1px;
 	width: 30em;
 	background-color: $c-lightgrey;
 	-ms-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  @media (min-width: $mq-tiny) {
+    left: 10%;
+  }
+  @media (min-width: $mq-small) {
+    left: 25%;
+  }
 }
 
 @mixin triangle-topleft {
@@ -2734,8 +2740,6 @@ footer {
             }
         }
         .contact-us {
-            max-width: 100%;
-            overflow-x: hidden;
             padding: 10% 0;
             border-bottom: thin solid $c-lightgrey;
             position: relative;
@@ -2936,8 +2940,6 @@ footer {
             }
         }
         .about {
-            max-width: 100%;
-            overflow-x: hidden;
             border-bottom: thin solid $c-lightgrey;
             position: relative;
             opacity: .9999;
