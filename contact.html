@@ -67,24 +67,45 @@
 
 		<div class="contact-us">
 			<div class="wrapper">
-                    <form action="send_mail.php" method="POST" name="form" class="contact-form">
-                            <fieldset>
-                                <legend>
-                                    <h3>Contact Form</h3>
-                                </legend>
-                                <div class="contact-form-container">
-                                    <div class="name-email-wrapper">
-                                        <label for="first name" class="visuallyhidden">First Name:</label>
-                                        <input type="text" name="firstName" placeholder="First Name" class="name">
-                                        <label for="Email" class="visuallyhidden">Email:</label>
-                                        <input type="text" name="email" placeholder="Email" class="email">
-                                    </div>
-                                    <label for="message" class="visuallyhidden">Message</label>
-                                    <textarea type="text" name="comments" placeholder="Message..."></textarea>
-                                    <button type="submit">Submit</button>
-                                </div>
-                            </fieldset>
-                        </form>
+                <form action="send_mail.php" method="POST" name="form" class="contact-form">
+                    <fieldset>
+                        <legend>
+                            <h3>Contact Form</h3>
+                        </legend>
+                        <div class="contact-form-container">
+                            <div class="name-email-wrapper">
+                                <label for="first name" class="visuallyhidden">First Name</label>
+                                <input type="text" name="firstName" placeholder="First Name" class="name">
+                                <label for="Email" class="visuallyhidden">Email</label>
+                                <input type="text" name="email" placeholder="Email" class="email">
+                            </div>
+                            <label for="message" class="visuallyhidden">Message</label>
+                            <textarea type="text" name="comments" placeholder="Message..."></textarea>
+                            <label for="phone number" class="visuallyhidden">Phone Number</label>
+                            <input type="text" name="phoneNumber" placeholder="Phone Number (Optional)" class="phone-number">
+                            <div class="how">
+                                <p>How did you hear about Bohemian Visions?</p>
+                                <select name="how">
+                                    <option value="Yelp">Yelp</option>
+                                    <option value="Google">Google</option>
+                                    <option value="Instagram">Instagram</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="Word of Mouth">Word of Mouth</option>
+                                </select>
+                            </div>
+                            <div class="what">
+                                <p>What type of Photography are you looking for?</p>
+                                <select name="what">
+                                    <option value="Boudoir">Boudoir</option>
+                                    <option value="Portrait">Portrait</option>
+                                </select>
+                            </div>
+                            <label for="experience" class="visuallyhidden">Experience</label>
+                            <textarea type="text" name="experience" placeholder="What type of experience are you looking for?"></textarea>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
 			</div>
         </div>
 
