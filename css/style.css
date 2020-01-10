@@ -761,13 +761,13 @@ p {
 
 @media (min-width: 20rem) and (max-width: 75rem) {
   p {
-    font-size: calc( 0.8rem + (0.85 - 0.8) * ( (100vw - 20rem) / ( 75 - 20) ));
+    font-size: calc( 1rem + (0.85 - 0.8) * ( (100vw - 20rem) / ( 75 - 20) ));
   }
 }
 
 @media (min-width: 75rem) {
   p {
-    font-size: 0.85rem;
+    font-size: 1.05rem;
   }
 }
 
@@ -1077,7 +1077,7 @@ button[type="submit"] {
   transition: all .5s;
 }
 
-/* ================================= 
+/* =================================
   Layout - Base Styles
 ==================================== */
 nav .mobile-nav-bar .top-nav-bar {
@@ -1950,7 +1950,7 @@ footer .footer-bar .wrapper .footer-bar-icons a:hover, footer .footer-bar .wrapp
   -moz-justify-content: center;
   justify-content: center;
   height: 50vh;
-  background: #B2B2B2 url("../img/contacthero.jpg") no-repeat top center/cover;
+  background: #B2B2B2 url("../img/contacthero2.jpg") no-repeat top center/cover;
 }
 
 #contact main .hero-title {
